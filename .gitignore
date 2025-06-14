@@ -1,2 +1,5 @@
-# venv
+# Virtual environment
 venv/
+
+# Temporary failes / VSCode scrap
+temp*
