@@ -3,3 +3,9 @@ venv/
 
 # Temporary failes / VSCode scrap
 temp*
+
+# Python
+__pycache__/
+
+# Pytest
+.pytest_cache
