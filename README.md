@@ -27,7 +27,7 @@ pip install requests beautifulsoup4 csv lxml
 
 ---
 
-🚀 How to Run
+## 🚀 How to Run
 
 ```bash
 python scrape.py
@@ -42,7 +42,7 @@ This will:
 
 ---
 
-📊 Output Format (CSV)
+## 📊 Output Format (CSV)
 The output file contains two columns:
 | Letter | Count |
 | ------ | ----- |
@@ -52,20 +52,42 @@ The output file contains two columns:
 
 ---
 
-💡 Future Ideas
+## 🧪 Testing
+This project includes automated tests using pytest to ensure everything works as expected.
+
+How to run the tests
+- Install pytest (if you haven’t already):
+
+```bash
+pip install pytest
+```
+
+- Run tests from the project root directory:
+
+```bash
+pytest test_scrape.py
+```
+
+- Check the output — pytest will report which tests passed or failed.
+
+Running tests helps you keep your scraper reliable and catch any issues early!
+
+---
+
+## 💡 Future Ideas
 - Visualize results with bar charts
 - Add command-line options (e.g., limit pages, output format)
 
 ---
 
-📎 Notes
+## 📎 Notes
 Wikipedia uses UTF-8 URL encoding (e.g. %D0%90 → А). This script decodes it automatically.
 
 Only animal names starting with a letter are counted (non-alphabet characters are ignored).
 
 ---
 
-🐍 Author - Maximus Brutalis
+## 🐍 Author - Maximus Brutalis
 Made with Python, curiosity, and coffee ☕
 
 ---
